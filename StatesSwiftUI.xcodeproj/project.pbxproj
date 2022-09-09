@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CBF2CBC28CB77EF006E01C2 /* SymbolCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF2CBB28CB77EF006E01C2 /* SymbolCounterView.swift */; };
+		4CBF2CBE28CB788B006E01C2 /* RegisterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF2CBD28CB788B006E01C2 /* RegisterButtonView.swift */; };
+		4CBF2CC028CB7C86006E01C2 /* LogoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF2CBF28CB7C86006E01C2 /* LogoutButtonView.swift */; };
 		4CDC028428CB66E2004AC3A1 /* StatesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC028328CB66E2004AC3A1 /* StatesSwiftUIApp.swift */; };
 		4CDC028628CB66E2004AC3A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC028528CB66E2004AC3A1 /* ContentView.swift */; };
 		4CDC028828CB66E2004AC3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDC028728CB66E2004AC3A1 /* Assets.xcassets */; };
 		4CDC028B28CB66E2004AC3A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDC028A28CB66E2004AC3A1 /* Preview Assets.xcassets */; };
+		4CDC029228CB6A67004AC3A1 /* TimerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC029128CB6A67004AC3A1 /* TimerButtonView.swift */; };
+		4CDC029428CB6A92004AC3A1 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC029328CB6A92004AC3A1 /* UserManager.swift */; };
+		4CDC029628CB6ACE004AC3A1 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC029528CB6ACE004AC3A1 /* TimeCounter.swift */; };
+		4CDC029828CB6F27004AC3A1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC029728CB6F27004AC3A1 /* RegisterView.swift */; };
+		4CDC029A28CB701E004AC3A1 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC029928CB701E004AC3A1 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CBF2CBB28CB77EF006E01C2 /* SymbolCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCounterView.swift; sourceTree = "<group>"; };
+		4CBF2CBD28CB788B006E01C2 /* RegisterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButtonView.swift; sourceTree = "<group>"; };
+		4CBF2CBF28CB7C86006E01C2 /* LogoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButtonView.swift; sourceTree = "<group>"; };
 		4CDC028028CB66E2004AC3A1 /* StatesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDC028328CB66E2004AC3A1 /* StatesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesSwiftUIApp.swift; sourceTree = "<group>"; };
 		4CDC028528CB66E2004AC3A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CDC028728CB66E2004AC3A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CDC028A28CB66E2004AC3A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CDC029128CB6A67004AC3A1 /* TimerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtonView.swift; sourceTree = "<group>"; };
+		4CDC029328CB6A92004AC3A1 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		4CDC029528CB6ACE004AC3A1 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		4CDC029728CB6F27004AC3A1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4CDC029928CB701E004AC3A1 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				4CDC028328CB66E2004AC3A1 /* StatesSwiftUIApp.swift */,
 				4CDC028528CB66E2004AC3A1 /* ContentView.swift */,
+				4CDC029728CB6F27004AC3A1 /* RegisterView.swift */,
+				4CBF2CBF28CB7C86006E01C2 /* LogoutButtonView.swift */,
+				4CBF2CBD28CB788B006E01C2 /* RegisterButtonView.swift */,
+				4CBF2CBB28CB77EF006E01C2 /* SymbolCounterView.swift */,
+				4CDC029928CB701E004AC3A1 /* StarterView.swift */,
+				4CDC029128CB6A67004AC3A1 /* TimerButtonView.swift */,
+				4CDC029528CB6ACE004AC3A1 /* TimeCounter.swift */,
+				4CDC029328CB6A92004AC3A1 /* UserManager.swift */,
 				4CDC028728CB66E2004AC3A1 /* Assets.xcassets */,
 				4CDC028928CB66E2004AC3A1 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDC029A28CB701E004AC3A1 /* StarterView.swift in Sources */,
 				4CDC028628CB66E2004AC3A1 /* ContentView.swift in Sources */,
+				4CDC029228CB6A67004AC3A1 /* TimerButtonView.swift in Sources */,
+				4CBF2CBC28CB77EF006E01C2 /* SymbolCounterView.swift in Sources */,
+				4CDC029428CB6A92004AC3A1 /* UserManager.swift in Sources */,
+				4CDC029828CB6F27004AC3A1 /* RegisterView.swift in Sources */,
+				4CBF2CC028CB7C86006E01C2 /* LogoutButtonView.swift in Sources */,
+				4CDC029628CB6ACE004AC3A1 /* TimeCounter.swift in Sources */,
 				4CDC028428CB66E2004AC3A1 /* StatesSwiftUIApp.swift in Sources */,
+				4CBF2CBE28CB788B006E01C2 /* RegisterButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
