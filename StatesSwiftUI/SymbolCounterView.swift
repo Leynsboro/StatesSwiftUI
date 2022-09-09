@@ -13,7 +13,7 @@ struct SymbolCounterView: View {
     
     var body: some View {
         HStack {
-            TextField("Your Location", text: $name)
+            TextField("Enter your name", text: $name)
                 .onChange(of: name) {
                     if $0.count > 2 {
                         color = .green

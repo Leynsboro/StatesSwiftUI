@@ -8,16 +8,12 @@
 import SwiftUI
 
 struct RegisterView: View {
-    @EnvironmentObject var user: UserManager
     @State private var name = ""
     
     var body: some View {
         VStack {
             SymbolCounterView(name: $name)
             RegisterButtonView(name: $name)
-            Button(action: {print(user.name)}) {
-                Text("LOL")
-            }
         }
     }
 }

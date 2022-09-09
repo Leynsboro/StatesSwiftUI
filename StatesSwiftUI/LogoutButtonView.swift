@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LogoutButtonView: View {
     @EnvironmentObject var user: UserManager
+    @EnvironmentObject var storage: StorageManager
     
     var body: some View {
         Button(action: logOut ) {
@@ -26,8 +27,11 @@ struct LogoutButtonView: View {
 
 extension LogoutButtonView {
     private func logOut() {
-        if user.isRegister {
+        if storage.isRegister {
+            user.name = ""
             user.isRegister.toggle()
+            storage.name = ""
+            storage.isRegister.toggle()
         }
     }
 }

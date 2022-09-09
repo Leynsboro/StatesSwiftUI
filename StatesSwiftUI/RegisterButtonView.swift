@@ -9,7 +9,10 @@ import SwiftUI
 
 struct RegisterButtonView: View {
     @EnvironmentObject var user: UserManager
+    @EnvironmentObject var storage: StorageManager
     @Binding var name: String
+    
+    @State private var alertPresented = false
     
     var body: some View {
         Button(action: registerUser) {
@@ -18,14 +21,23 @@ struct RegisterButtonView: View {
                 Text("OK")
             }
         }
+        .alert("Enter valid name",
+               isPresented: $alertPresented,
+               actions: {}) {
+            Text("Count symbols must be above 2")
+        }
     }
 }
 
 extension RegisterButtonView {
     private func registerUser() {
-        if !name.isEmpty {
+        if !name.isEmpty, name.count > 2 {
             user.name = name
             user.isRegister.toggle()
+            storage.name = name
+            storage.isRegister.toggle()
+        } else {
+            alertPresented.toggle()
         }
     }
 }

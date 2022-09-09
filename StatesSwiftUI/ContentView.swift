@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var timer = TimeCounter()
-    @EnvironmentObject var user: UserManager
+    @EnvironmentObject var storage: StorageManager
     
     var body: some View {
         VStack(spacing: 40) {
-            Text("Hi, \(user.name)")
+            Text("Hi, \(storage.name)")
                 .font(.largeTitle)
                 .offset(x: 0, y: 100)
             Text("\(timer.counter)")
@@ -31,6 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(UserManager())
+            .environmentObject(StorageManager())
     }
 }
